@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+#container {
+    position: relative;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+    position: fixed;
+    top: 20px;
+    left: 52.5%;
+    border-radius: 50%;
+}
+
+#rod1, #rod2 {
+    width: 200px;
+    height: 20px;
+    position: fixed;
+    left: 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#rod1 {
+    background-color: #2a2a72;
+    background-image: linear-gradient(#2a2a72 0%, #009ffd 74%);
+    top: 0px;    
+}
+
+#rod2 {
+    background-color: #feae96;
+    background-image: linear-gradient(#feae96 0%, #fe0944 74%);
+    bottom: 0px;
+}
